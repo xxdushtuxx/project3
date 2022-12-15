@@ -1,0 +1,142 @@
+<!--
+
+    Final Project (3)
+    Name: Md Mahamudun Alam Mahin
+    Date: 12/14/22
+    Description: Contact Page of the business JerseyShop.
+	
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="script.js"></script>
+    <title>contact</title>
+</head>
+
+<body>
+    <div id="contentArea">
+
+        <header>
+            <h1>JerseyShop</h1>
+            <img src="./images/imagemain.jpg" alt="" id="imagemain">
+        </header>
+
+
+        <main>
+
+            <div id="navigation">
+                <nav>
+                    <ul>
+                        <li><a href="./index.html">Home</a></li>
+
+                        <li><a href="./prod_vices.html">Product and Services</a></li>
+
+                        <li><a href="./contact.html">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div id="form">
+
+                <form id="feedbackform" action="index.html" method="post">
+                    <fieldset>
+                        <legend>Feedback</legend>
+                        <div>
+                            <ul>
+
+                                <li>
+                                    <label for="name"> Name</label>
+                                    <input type="text" name="name" id="name">
+                                    <p class="error" id="name_error">* Required field</p>
+                                </li>
+
+                                <li>
+                                    <label for="phoneNumber">Phone</label>
+                                    <input type="tel" name="phoneNumber" id="phoneNumber">
+                                    <p class="error" id="phoneNumber_error">* Required field</p>
+                                    <p class="error" id="invalidphoneNumber_error">* Invalid phone number</p>
+                                </li>
+
+                                <li>
+                                    <label for="email">Email</label>
+                                    <input type="email" name="email" id="email">
+                                    <p class="error" id="email_error">* Required field</p>
+                                    <p class="error" id="invalidemail_error">* Invalid email address</p>
+                                </li>
+
+                                <li id="commentbox">
+                                    <label for="comments">Comments</label>
+                                    <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+                                    <p class="error" id="comments_error">* Required field</p>
+                                </li>
+
+                            </ul>
+
+                        </div>
+                        <div id="buttons">
+                            <span>
+                                <button type="reset">reset</button>
+                                <button type="submit">submit</button>
+                            </span>
+
+                        </div>
+
+                    </fieldset>
+
+                </form>
+            </div>
+
+            <p> Thank you for the feedback! </p>
+        </main>
+
+        <footer>
+
+            <div id="end-navigation">
+
+                <nav title="Last Navigation">
+
+                    <ul>
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+
+                        <li>
+                            <a href="prod_vices.html">Product and Services</a>
+                        </li>
+
+                        <li id="footer-navigation-last-list-item">
+                            <a href="contact.html">Contact Us</a>
+                        </li>
+                    </ul>
+
+                </nav>
+
+            </div>
+
+            <div id="copyright">
+
+                <p>
+                    Copyright © 2022. Md Mahamudun Alam Mahin.
+                </p>
+
+            </div>
+
+            <div id="address">
+
+                <p>
+                    Red River College Polytechnic <i>(RRC)</i>
+                </p>
+
+            </div>
+
+        </footer>
+    </div>
+</body>
+
+</html>
